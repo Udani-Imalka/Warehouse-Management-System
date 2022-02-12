@@ -1,12 +1,10 @@
 import './App.css';
-import Button from './Components/Button';
-import Table from './Components/Table';
+import Login from './Pages/User/Login';
 
 function App() {
   return (
     <div className="App">
-      <Button text="Confirm"></Button>
-      <Table header1="Name"></Table>
+      <Login/>
     </div>
   );
 }
