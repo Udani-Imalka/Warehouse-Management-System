@@ -268,6 +268,7 @@ class Header extends Component {
 
   render() {
     return (
+      // ADD HEADER
       <header id="page-topbar">
         <div className="navbar-header">
           <div className="d-flex">
