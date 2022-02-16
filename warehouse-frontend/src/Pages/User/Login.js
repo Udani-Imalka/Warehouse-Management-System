@@ -1,8 +1,9 @@
 import { Component, React } from "react";
-//import { Link } from "react-router-dom";
-//import Button from "../../Components/Button";
+import { Link } from "react-router-dom";
+import RouterPaths from "../../RouterPaths";
 
 class Login extends Component {
+  
   render() {
     return (
       <div className="container">
@@ -104,12 +105,15 @@ class Login extends Component {
                       </label>
                     </div>
                     <div className="mt-3 d-grid">
-                      <button
+
+                      <Link
                         className="btn btn-primary waves-effect waves-light"
                         type="submit"
+                        to="/Dashboard"
                       >
                         Log In
-                      </button>
+                      </Link>
+
                     </div>
                     <div className="mt-4 text-center">
                       <a href="auth-recoverpw.html" className="text-muted">
