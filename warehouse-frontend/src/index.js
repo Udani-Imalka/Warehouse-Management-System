@@ -4,7 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+<<<<<<< HEAD
 
+=======
+>>>>>>> 588b3ef54525274bff285afb9fe19ada83092408
 
 ReactDOM.render(
   <React.StrictMode>
