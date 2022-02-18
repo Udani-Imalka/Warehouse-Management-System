@@ -1,12 +1,10 @@
-import './App.css';
-import Alert from './Component/Alert';
-import Header from './Component/Header';
+import Home from "./Component/Home";
+
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-     <Alert text="Click"></Alert>
+     <Home></Home>
     </div>
   );
 }
