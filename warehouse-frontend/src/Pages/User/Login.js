@@ -1,6 +1,5 @@
 import { Component, React } from "react";
 import { Link } from "react-router-dom";
-import RouterPaths from "../../RouterPaths";
 
 class Login extends Component {
   
@@ -106,13 +105,13 @@ class Login extends Component {
                     </div>
                     <div className="mt-3 d-grid">
 
-                      <Link
+                      <button
                         className="btn btn-primary waves-effect waves-light"
                         type="submit"
                         to="/Dashboard"
                       >
                         Log In
-                      </Link>
+                      </button>
 
                     </div>
                     <div className="mt-4 text-center">

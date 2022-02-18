@@ -1,24 +1,21 @@
-import { Component, React } from 'react';
-import {BrowserRouter as Router,Route} from 'react-router-dom';
+import { Component, React } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import Dashboard from './Pages/Dashboard';
-import Login from './Pages/User/Login';
+import Dashboard from "./Pages/Dashboard";
+import Login from "./Pages/User/Login";
 
 class RouterPaths extends Component {
-    
   render() {
     return (
       <Router>
-        <div className="App">
-          <div className="content">
-
-              <Route exact path="/">
-                <Login />
-              </Route>
-              <Route exact path="/Dashboard">
-                <Dashboard />
-              </Route>
-              {/* <Route path="/supplier">
+        <Routes>
+        <Route exact path="/">
+          <Login />
+        </Route>
+        <Route exact path="/Dashboard">
+          <Dashboard />
+        </Route>
+        {/* <Route path="/supplier">
                 <Supplier />
               </Route>
               <Route path="/purchaseOrderCart">
@@ -39,9 +36,7 @@ class RouterPaths extends Component {
               <Route path="/GRNinvoice">
                 <Invoice />
               </Route> */}
-
-          </div>
-        </div>
+              </Routes>
       </Router>
     );
   }
